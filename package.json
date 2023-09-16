@@ -16,9 +16,12 @@
     "mark-react"
   ],
   "scripts": {
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "test": "jest --watch"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.19",
+    "@babel/preset-env": "^7.22.15",
     "@babel/preset-typescript": "^7.22.15",
     "@jest/globals": "^29.7.0",
     "@types/react": "^18.2.21",
@@ -26,6 +29,7 @@
     "@typescript-eslint/eslint-plugin": "^6.7.0",
     "@typescript-eslint/parser": "^6.7.0",
     "@webpack-cli/generators": "^3.0.7",
+    "babel-jest": "^29.7.0",
     "css-loader": "^6.8.1",
     "eslint": "^8.49.0",
     "eslint-plugin-react": "^7.33.2",

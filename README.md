@@ -40,6 +40,13 @@ git checkout -b feature-branch
 yarn dev
 ```
 
+**_test_**
+it is in --watch mode
+
+```bash
+yarn test
+```
+
 Know you can develop the feature
 
 maintained with ❤️ by Amir Hossein.
